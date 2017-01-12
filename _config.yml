@@ -1,2 +1,3 @@
 name: Jackson Cantrell, Ok writer.
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
