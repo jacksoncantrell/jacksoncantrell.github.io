@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 5%;
+    margin-right: 8%;
 }
 a {
     text-decoration: none;
@@ -29,8 +29,6 @@ a:hover {
 #topimage:hover div.lay{
     opacity: 1;
 }
-
-
 
 #cover {
   background: url("https://blog.kaspersky.com/files/2015/12/train-hack-featured-1.jpg") no-repeat top center;
@@ -119,12 +117,9 @@ div.laya{
   background-color: #faa;
 }
 
-
 div.outside:hover div.lay, div.outsidea:hover div.lay, div.outsideb:hover div.lay{
   opacity: 1;
 }
-
-
 
 div.text {
   color: white;
