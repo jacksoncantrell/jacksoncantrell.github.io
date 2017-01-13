@@ -64,20 +64,20 @@ div.outside {
 div.outsidea {
   position: relative;
   display: inline-block;
-  width: 48%;
+  width: 49.5%;
 }
 
-div.outside img {
+div.outsideb {
+  position: relative;
+  display: inline-block;
+  width: 32.5%;
+}
+div.mosaic img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-div.outsidea img{
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 div.lay {
   display:block;
@@ -108,7 +108,7 @@ div.laya{
 }
 
 
-div.outside:hover div.lay, div.outsidea:hover div.lay, div.outsidea:hover div.laya{
+div.outside:hover div.lay, div.outsidea:hover div.lay, div.outsideb:hover div.lay{
   opacity: 1;
 }
 
