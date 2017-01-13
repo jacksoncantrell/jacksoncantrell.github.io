@@ -47,6 +47,7 @@ div.outsidea {
     
 }
 div.insidea{
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
     position: relative;
     top: 0;
     bottom: 0;
@@ -82,12 +83,6 @@ img.image {
   height: auto;
 }
 
-img.imagea {
-    display:block;
-    height: 100%;
-    width: auto;
-}
-
 div.lay {
   position: absolute;
   top: 0;
@@ -100,7 +95,22 @@ div.lay {
   transition: .5s ease;
   background-color: #008CBA;
 }
-div.outside:hover div.lay, div.insidea:hover div.lay, div.insideb:hover div.lay, div.insidec:hover div.lay {
+
+div.laya{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+
+div.outside:hover div.lay, div.outsidea:hover div.lay, div.outsidea:hover div.laya{
   opacity: 1;
 }
 
