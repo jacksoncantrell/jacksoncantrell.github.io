@@ -19,6 +19,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,17 +34,17 @@ footer {
     font-size: .8em;
 }
 
-outside {
+div.outside {
   position: relative;
   width: 100%;
 }
 
-image {
+div.image {
   display: block;
   width: 100%;
   height: auto;
 }
-lay {
+div.lay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -55,10 +56,10 @@ lay {
   transition: .5s ease;
   background-color: #008CBA;
 }
-outside:hover overlay {
+div.outside:hover overlay {
   opacity: 1;
 }
-text {
+div.text {
   color: white;
   font-size: 20px;
   position: absolute;
