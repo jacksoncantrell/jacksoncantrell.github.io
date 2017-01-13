@@ -55,36 +55,6 @@ div.outsidea {
   height: auto;
     
 }
-div.insidea{
-    background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 50%;
-    background-size: contain;
-}
-div.insideb{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    right: 0;
-    height: 50%;
-    width: 50%;
-    background-size: cover;
-}
-div.insidec{
-    position: relative;
-    top: 50%;
-    bottom: 0;
-    left: 50%;
-    right: 0;
-    height: 50%;
-    width: 50%;
-    background-size: cover;
-}
 
 img.image {
   display: block;
@@ -92,7 +62,7 @@ img.image {
   height: auto;
 }
 
-img.imagea {
+div.outsidea img{
   display: inline-block;
   width: 50%;
   height: auto;
