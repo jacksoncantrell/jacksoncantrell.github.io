@@ -21,13 +21,25 @@ a:hover {
 }
 
 #cover {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
+  background: url("https://blog.kaspersky.com/files/2015/12/train-hack-featured-1.jpg") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
-  height: 1000px;
+  height: 500px;
   position: relative;
-  top: -55px;
   width: 100%;
+}
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
+  text-align: center;
+  width: 70%;
+}
+
+div.cover-content h1{
+  color:white;
 }
 
 h1 {
@@ -51,24 +63,24 @@ div.outside {
 
 div.outsidea {
   position: relative;
-  width: 100%;
-  height: auto;
-    
+  display: inline-block;
+  width: 48%;
 }
 
-img.image {
+div.outside img {
   display: block;
   width: 100%;
   height: auto;
 }
 
 div.outsidea img{
-  display: inline-block;
-  width: 50%;
+  display: block;
+  width: 100%;
   height: auto;
 }
 
 div.lay {
+  display:block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -82,6 +94,7 @@ div.lay {
 }
 
 div.laya{
+  display:inline-block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -91,7 +104,7 @@ div.laya{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #fff;
+  background-color: #faa;
 }
 
 
