@@ -61,7 +61,8 @@ div.outside:hover div.lay {
 }
 div.text {
   color: white;
-  font-size: 20px;
+  font-size: 3em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   position: absolute;
   top: 50%;
   left: 50%;
