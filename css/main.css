@@ -20,6 +20,11 @@ a:hover {
     text-decoration: underline;
 }
 
+#topimage {
+    height: 50px;
+    width: auto;
+}
+
 #cover {
   background: url("https://blog.kaspersky.com/files/2015/12/train-hack-featured-1.jpg") no-repeat top center;
   background-size: cover;
