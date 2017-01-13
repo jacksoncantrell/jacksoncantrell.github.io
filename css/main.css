@@ -26,6 +26,7 @@ a:hover {
 }
 
 #topimage:hover div.lay{
+    opacity: 1;
 }
 
 
