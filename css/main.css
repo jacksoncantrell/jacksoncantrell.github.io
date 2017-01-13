@@ -41,7 +41,7 @@ footer {
   width: 100%;
   height: auto;
 }
-.overlay {
+overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -53,7 +53,7 @@ footer {
   transition: .5s ease;
   background-color: #008CBA;
 }
-.container2:hover overlay {
+.outside:hover overlay {
   opacity: 1;
 }
 .text {
