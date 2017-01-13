@@ -32,16 +32,16 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-container2 {
+.container2 {
   position: relative;
   width: 50%;
 }
-image {
+.image {
   display: block;
   width: 100%;
   height: auto;
 }
-overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -53,10 +53,10 @@ overlay {
   transition: .5s ease;
   background-color: #008CBA;
 }
-container2:hover overlay {
+.container2:hover overlay {
   opacity: 1;
 }
-text {
+.text {
   color: white;
   font-size: 20px;
   position: absolute;
