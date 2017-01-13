@@ -32,7 +32,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-container {
+container2 {
   position: relative;
   width: 50%;
 }
@@ -53,7 +53,7 @@ overlay {
   transition: .5s ease;
   background-color: #008CBA;
 }
-container:hover overlay {
+container2:hover overlay {
   opacity: 1;
 }
 text {
