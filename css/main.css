@@ -81,6 +81,13 @@ img.image {
   width: 100%;
   height: auto;
 }
+
+img.imagea {
+    display:block;
+    height: 100%;
+    width: auto;
+}
+
 div.lay {
   position: absolute;
   top: 0;
