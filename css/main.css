@@ -33,17 +33,17 @@ footer {
     font-size: .8em;
 }
 
-.outside {
+outside {
   position: relative;
   width: 100%;
 }
 
-.image {
+image {
   display: block;
   width: 100%;
   height: auto;
 }
-.lay {
+lay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -55,10 +55,10 @@ footer {
   transition: .5s ease;
   background-color: #008CBA;
 }
-.outside:hover overlay {
+outside:hover overlay {
   opacity: 1;
 }
-.text {
+text {
   color: white;
   font-size: 20px;
   position: absolute;
