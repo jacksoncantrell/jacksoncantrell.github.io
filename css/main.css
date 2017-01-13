@@ -32,18 +32,15 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 container {
   position: relative;
   width: 50%;
 }
-
 image {
   display: block;
   width: 100%;
   height: auto;
 }
-
 overlay {
   position: absolute;
   top: 0;
@@ -56,11 +53,9 @@ overlay {
   transition: .5s ease;
   background-color: #008CBA;
 }
-
 container:hover overlay {
   opacity: 1;
 }
-
 text {
   color: white;
   font-size: 20px;
