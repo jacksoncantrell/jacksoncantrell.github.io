@@ -103,6 +103,10 @@ div.lay {
   background-color: #008CBA;
 }
 
+.thumbnail img:hover{
+    
+}
+
 div.laya{
   display:inline-block;
   position: absolute;
