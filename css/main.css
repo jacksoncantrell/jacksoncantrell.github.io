@@ -126,6 +126,17 @@ div.text {
   -ms-transform: translate(-50%, -50%);
 }
 
+div.text2 {
+    color: white;
+  font-size: 2vw;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
