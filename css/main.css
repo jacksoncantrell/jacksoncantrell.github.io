@@ -24,10 +24,17 @@ a:hover {
     text-decoration: underline;
 }
 
-#topimage {
+.image_off, #home:hover .image_on{
     height: 50px;
     width: auto;
+   display:none
 }
+.image_on, #home:hover .image_off{
+    height: 50px;
+    width: auto;
+   display:block
+}
+
 
 #topimage:hover div.lay{
     opacity: 1;
