@@ -24,12 +24,12 @@ a:hover {
     text-decoration: underline;
 }
 
-div.image_off, #topimage:hover .image_on{
+li.image_off, #topimage:hover li.image_on{
     height: 50px;
     width: auto;
    display:none
 }
-div.image_on, #topimage:hover .image_off{
+li.image_on, #topimage:hover li.image_off{
     height: 50px;
     width: auto;
    display:block
