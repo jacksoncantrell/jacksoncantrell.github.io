@@ -118,7 +118,7 @@ div.lay {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #ff3b00;
 }
 
 
@@ -133,7 +133,7 @@ div.laya{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #faa;
+  background-color: #ff3b00;
 }
 
 div.thumbnail:hover div.lay{
