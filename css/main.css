@@ -83,6 +83,19 @@ div.thumbnail img{
   width: 100%;
 }
 
+@media only screen and (max-width: 700px){
+    .thumbnail {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .thumbnail {
+        width: 100%;
+    }
+}
+
 
 
 div.lay {
