@@ -4,6 +4,13 @@ body {
     margin: 60px auto;
     width: 75%;
 }
+
+@media only screen and (max-width: 500px){
+    body {
+        width: 95%;
+    }
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
