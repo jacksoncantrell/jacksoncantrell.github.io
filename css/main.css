@@ -3,7 +3,7 @@ body {
     width: 75%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     body {
         width: 95%;
     }
@@ -81,12 +81,14 @@ div.container {
   text-align: center;
 }
 div.thumbnail {
+  padding: 5px;
   position: relative;
   display: inline-block;
-  width: 48%;
+  width: 47.6%;
   
 }
 div.thumbnail img{
+  
   position: relative;
   display: inline-block;
   width: 100%;
@@ -94,13 +96,14 @@ div.thumbnail img{
 
 @media only screen and (max-width: 700px){
     div.thumbnail {
-        width: 48%;
+        width: 46.6%;
+
     }
 }
 
 @media only screen and (max-width: 600px){
     div.thumbnail {
-        width: 100%;
+        width: 97%;
     }
 }
 
@@ -117,7 +120,7 @@ div.lay {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #ff3b00;
+  background-color: #008CBA;
 }
 
 
@@ -132,7 +135,7 @@ div.laya{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #ff3b00;
+  background-color: #faa;
 }
 
 div.thumbnail:hover div.lay{
@@ -160,6 +163,20 @@ div.text2 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+@media only screen and (max-width: 600px){
+    div.text, div.text2 {
+  width: 90%;
+  color: white;
+  font-size: 7vw;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+     }
+}
+
 
 ul.posts { 
     margin: 20px auto 40px; 
