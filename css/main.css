@@ -48,6 +48,7 @@ li.image_on, #topimage:hover li.image_off{
   height: 500px;
   position: relative;
   width: 100%;
+  bottom: 20px;
 }
 
 .cover-content {
@@ -81,10 +82,10 @@ div.container {
   text-align: center;
 }
 div.thumbnail {
-  padding: 5px;
+  padding: .2%;
   position: relative;
   display: inline-block;
-  width: 47.6%;
+  width: 48.8%;
   
 }
 div.thumbnail img{
@@ -120,6 +121,22 @@ div.lay {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+}
+
+@media only screen and (max-width: 600px){
+    div.laya, div.lay{
+  display:block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 99%;
+  width: 100%;
+  opacity: .6;
+  transition: .5s ease;
+  background-color: #008CBA;
+    }
 }
 
 
