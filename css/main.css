@@ -21,6 +21,26 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 8%;
 }
+
+@media only screen and (max-width: 700px){
+    nav ul li {
+        display: inline;
+        margin-right: 5%;
+    }
+}
+@media only screen and (max-width: 500px){
+    nav ul li {
+        display: inline;
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav ul li {
+        display: inline;
+        margin-right: 3%;
+    }
+}
 a {
     text-decoration: none;
     color: #999;
@@ -29,16 +49,6 @@ a:hover {
     text-decoration: underline;
 }
 
-li.image_off, #topimage:hover li.image_on{
-    height: 50px;
-    width: auto;
-   display:none
-}
-li.image_on, #topimage:hover li.image_off{
-    height: 50px;
-    width: auto;
-   display:block
-}
 
 
 #cover {
@@ -88,11 +98,23 @@ div.thumbnail {
   width: 48.8%;
   
 }
+
+div.top_image {
+  position: relative;
+  display: inline-block;
+  
+}
 div.thumbnail img{
   
   position: relative;
   display: inline-block;
   width: 100%;
+}
+div.top_image img{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  
 }
 
 @media only screen and (max-width: 700px){
@@ -141,7 +163,7 @@ div.lay {
 
 
 div.laya{
-  display:inline-block;
+  display:block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -151,11 +173,15 @@ div.laya{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #faa;
+  background-color: #d7d9dd;
 }
 
 div.thumbnail:hover div.lay{
   opacity: 1;
+}
+
+div.top_image:hover div.laya{
+  opacity: .9;
 }
 
 div.text {
@@ -179,6 +205,18 @@ div.text2 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+div.text3 {
+  color: white;
+  font-weight: bold;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 
 @media only screen and (max-width: 600px){
     div.text, div.text2 {
