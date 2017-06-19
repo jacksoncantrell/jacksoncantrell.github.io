@@ -8,7 +8,104 @@ body {
     }
 }
 
-nav ul, footer ul {
+nav{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    right: 0%;
+    top: 0px;
+    background: #fff;
+    opacity: .8;
+    z-index: 100;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+nav h1#logo {
+    display: inline-block;
+    height: 150px;
+    line-height: 150px;
+    float: left;
+    color: white;
+    font-weight: 400;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+nav a {
+    line-height: 150px;
+    margin-left: 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav a:hover {
+    color: white;
+}
+nav.smaller {
+    height: 75px;
+}
+nav.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    line-height: 75px;
+}
+
+nav.smaller nav a {
+    line-height: 75px;
+}
+
+@media all and (max-width: 660px) {
+    nav h1#logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+   nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    nav a {
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    nav.smaller {
+        height: 75px;
+    }
+    nav.smaller h1#logo {
+        height: 40px;
+        line-height: 40px;
+    }
+    nav.smaller nav {
+        height: 35px;
+    }
+    nav.smaller nav a {
+        line-height: 35px;
+    }
+}
+
+footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
