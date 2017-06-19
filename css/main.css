@@ -135,14 +135,14 @@ div.lay {
   display:block;
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 5;
   left: 0;
   right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #d2ffaa;
 }
 
 @media only screen and (max-width: 600px){
@@ -153,11 +153,11 @@ div.lay {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 99%;
+  height: 100%;
   width: 100%;
   opacity: .6;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #d2ffaa;
     }
 }
 
@@ -173,7 +173,7 @@ div.laya{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #d7d9dd;
+  background-color: #d2ffaa;
 }
 
 div.thumbnail:hover div.lay{
