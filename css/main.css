@@ -2,12 +2,20 @@ body {
     margin: 60px auto;
     width: 75%;
     position: relative;
-    top: 150px;
+    top: 130px;
 }
 @media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
     body {
         width: 95%;
     }
+}
+
+div.laya{
+  display:block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
 }
 
 nav{
@@ -23,26 +31,14 @@ nav{
     background: #fff;
     opacity: .8;
     z-index: 100;
-    -webkit-transition: height 3s;
-    -moz-transition: height 3s;
-    -ms-transition: height 3s;
-    -o-transition: height 3s;
-    transition: height 3s;
+    -webkit-transition: height .3s;
+    -moz-transition: height .3s;
+    -ms-transition: height .3s;
+    -o-transition: height .3s;
+    transition: height .3s;
 }
 
-nav l1#logo {
-    display: inline-block;
-    height: 100px;
-    line-height: 100px;
-    float: left;
-    color: white;
-    font-weight: 400;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
+
 nav {
     display: inline-block;
     float: right;
@@ -57,60 +53,21 @@ nav a {
     transition: all 0.3s;
 }
 nav a:hover {
-    color: white;
-}
-nav.smaller {
-    height: 75px;
+    color:#7cffbb;
 }
 
-nav.smaller,li{
-  position relative;
-  top: -10px;
 
-}
-nav.smaller li {
-    position: relative;
-    top: -115px;
+nav.smaller img{
+      max-width:32%;
+      max-height:32%;
 }
 
-nav.smaller nav a {
-    line-height: 75px;
+
+div.text3{
+  position:relative;
+  bottom: -20px;
 }
 
-@media all and (max-width: 660px) {
-    nav h1#logo {
-        display: block;
-        float: none;
-        margin: 0 auto;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-    }
-   nav {
-        display: block;
-        float: none;
-        height: 50px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    nav a {
-        line-height: 50px;
-        margin: 0 10px;
-    }
-    nav.smaller {
-        height: 75px;
-    }
-    nav.smaller h1#logo {
-        height: 40px;
-        line-height: 40px;
-    }
-    nav.smaller nav {
-        height: 35px;
-    }
-    nav.smaller nav a {
-        line-height: 35px;
-    }
-}
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -258,19 +215,7 @@ div.lay {
 }
 
 
-div.laya{
-  display:block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #d2ffaa;
-}
+
 
 div.thumbnail:hover div.lay{
   opacity: 1;
@@ -303,7 +248,7 @@ div.text2 {
 }
 
 div.text3 {
-  color: white;
+  color:#7cffbb;
   font-weight: bold;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   position: absolute;
