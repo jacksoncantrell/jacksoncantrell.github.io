@@ -84,7 +84,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid ##7cffbb;
     font-size: .8em;
 }
 
@@ -141,7 +141,7 @@ div.lay {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #d2ffaa;
+  background-color: #7cffbb;
 }
 
 @media only screen and (max-width: 600px){
@@ -156,7 +156,7 @@ div.lay {
   width: 100%;
   opacity: .6;
   transition: .5s ease;
-  background-color: #d2ffaa;
+  background-color: #7cffbb;
     }
 }
 
