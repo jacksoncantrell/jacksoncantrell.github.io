@@ -52,7 +52,7 @@ a:hover {
 
 
 #cover {
-  background: url("Castle.JPG") no-repeat top center;
+  background: url("/Castle.JPG") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
@@ -91,12 +91,12 @@ footer {
 div.container {
   text-align: center;
 }
+
 div.thumbnail {
   padding: .2%;
   position: relative;
   display: inline-block;
   width: 48.8%;
-  
 }
 
 div.top_image {
@@ -105,16 +105,15 @@ div.top_image {
   
 }
 div.thumbnail img{
-  
   position: relative;
   display: inline-block;
   width: 100%;
 }
+
 div.top_image img{
   position: relative;
   display: inline-block;
-  width: 100%;
-  
+  width: 100%;  
 }
 
 @media only screen and (max-width: 700px){
