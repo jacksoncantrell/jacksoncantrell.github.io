@@ -52,7 +52,7 @@ a:hover {
 
 
 #cover {
-  background: url("/Castle.JPG") no-repeat top center;
+  background: url("img src=/Castle.JPG") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   height: 500px;
