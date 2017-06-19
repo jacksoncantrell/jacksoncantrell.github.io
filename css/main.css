@@ -3,7 +3,7 @@ body {
     width: 75%;
 }
 
-@media only screen and (max-width: 600px){
+-webkit- @media only screen and (max-width: 600px){
     body {
         width: 95%;
     }
@@ -22,13 +22,13 @@ nav ul li, footer ul li {
     margin-right: 8%;
 }
 
-@media only screen and (max-width: 700px){
+-webkit- @media only screen and (max-width: 700px){
     nav ul li {
         display: inline;
         margin-right: 5%;
     }
 }
-@media only screen and (max-width: 500px){
+-webkit- @media only screen and (max-width: 500px){
     nav ul li {
         display: inline;
         margin-right: 3%;
@@ -110,14 +110,14 @@ div.top_image img{
   width: 100%;  
 }
 
-@media only screen and (max-width: 700px){
+-webkit- @media only screen and (max-width: 700px){
     div.thumbnail {
         width: 46.6%;
 
     }
 }
 
-@media only screen and (max-width: 600px){
+-webkit- @media only screen and (max-width: 600px){
     div.thumbnail {
         width: 97%;
     }
@@ -138,7 +138,7 @@ div.lay {
   background-color: #7cffbb;
 }
 
-@media only screen and (max-width: 600px){
+-webkit- @media only screen and (max-width: 600px){
     div.laya, div.lay{
   display:block;
   position: absolute;
@@ -211,7 +211,7 @@ div.text3 {
 }
 
 
-@media only screen and (max-width: 600px){
+-webkit- @media only screen and (max-width: 600px){
     div.text, div.text2 {
   width: 90%;
   color: white;
