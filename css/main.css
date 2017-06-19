@@ -1,6 +1,8 @@
 body {
     margin: 60px auto;
     width: 75%;
+    position: relative;
+    top: 150px;
 }
 @media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
     body {
@@ -21,17 +23,17 @@ nav{
     background: #fff;
     opacity: .8;
     z-index: 100;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    -ms-transition: height 0.3s;
-    -o-transition: height 0.3s;
-    transition: height 0.3s;
+    -webkit-transition: height 3s;
+    -moz-transition: height 3s;
+    -ms-transition: height 3s;
+    -o-transition: height 3s;
+    transition: height 3s;
 }
 
 nav l1#logo {
     display: inline-block;
-    height: 150px;
-    line-height: 150px;
+    height: 100px;
+    line-height: 100px;
     float: left;
     color: white;
     font-weight: 400;
@@ -46,7 +48,7 @@ nav {
     float: right;
 }
 nav a {
-    line-height: 150px;
+    line-height: 10px;
     margin-left: 20px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -60,10 +62,15 @@ nav a:hover {
 nav.smaller {
     height: 75px;
 }
-nav.smaller l1#logo {
-    width: 150px;
-    height: 75px;
-    line-height: 75px;
+
+nav.smaller,li{
+  position relative;
+  top: -10px;
+
+}
+nav.smaller li {
+    position: relative;
+    top: -115px;
 }
 
 nav.smaller nav a {
