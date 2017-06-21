@@ -20,13 +20,13 @@ div.laya{
 
 nav{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding-right: 10px;
     list-style: none;
     font-weight: bold;
     text-align: center;
     position: fixed;
     width: 100%;
-    right: 0%;
+    right: -1%;
     top: 0px;
     background: #fff;
     opacity: .8;
@@ -39,13 +39,9 @@ nav{
 }
 
 
-nav {
-    display: inline-block;
-    float: right;
-}
+
 nav a {
-    line-height: 10px;
-    margin-left: 20px;
+    margin-left: -1%;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -68,6 +64,15 @@ div.text3{
   bottom: -20px;
 }
 
+footer a:hover{
+  color:#7cffbb;
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -79,13 +84,13 @@ footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 8%;
+    margin-right: 9%;
 }
 
 @media only screen and (max-width: 800px) and (-webkit-device-pixel-ratio: 2) {
     nav ul li {
         display: inline;
-        margin-right: 5%;
+        margin-right: 6%;
     }
 }
 @media only screen and (max-width: 600px) and (-webkit-device-pixel-ratio: 2) {
@@ -198,25 +203,6 @@ div.lay {
   background-color: #7cffbb;
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-    div.laya, div.lay{
-  display:block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .6;
-  transition: .5s ease;
-  background-color: #7cffbb;
-    }
-}
-
-
-
-
 div.thumbnail:hover div.lay{
   opacity: 1;
 }
@@ -252,7 +238,7 @@ div.text3 {
   font-weight: bold;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   position: absolute;
-  top: 94%;
+  top: 88%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -281,3 +267,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
