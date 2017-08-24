@@ -4,18 +4,11 @@ body {
     position: relative;
     top: 130px;
 }
+
 @media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
     body {
         width: 95%;
     }
-}
-
-div.laya{
-  display:block;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
 }
 
 nav{
@@ -38,8 +31,6 @@ nav{
     transition: height .3s;
 }
 
-
-
 nav a {
     margin-left: -1%;
     -webkit-transition: all 0.3s;
@@ -53,34 +44,9 @@ nav a:hover {
     color:#7cffbb;
 }
 
-
 nav.smaller img{
-      max-width:32%;
-      max-height:32%;
-}
-
-
-div.text3{
-  position:relative;
-  bottom: -20px;
-}
-
-footer a:hover{
-  color:#7cffbb;
-  -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    text-align: center;
+      max-width:30%;
+      max-height:30%;
 }
 
 nav ul li, footer ul li {
@@ -94,6 +60,7 @@ nav ul li, footer ul li {
         margin-right: 6%;
     }
 }
+
 @media only screen and (max-width: 600px) and (-webkit-device-pixel-ratio: 2) {
     nav ul li {
         display: inline;
@@ -101,15 +68,31 @@ nav ul li, footer ul li {
     }
 }
 
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a:hover{
+  color:#7cffbb;
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
 
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
-
 
 #cover {
   background: url("/Havana.jpg") no-repeat top center;
@@ -152,22 +135,9 @@ div.container {
   text-align: center;
 }
 
-div.thumbnail {
-  padding: .2%;
-  position: relative;
-  display: inline-block;
-  width: 48.8%;
-}
-
 div.top_image {
   position: relative;
   display: inline-block;
-  
-}
-div.thumbnail img{
-  position: relative;
-  display: inline-block;
-  width: 100%;
 }
 
 div.top_image img{
@@ -176,16 +146,40 @@ div.top_image img{
   width: 100%;  
 }
 
+div.thumbnail {
+  padding: .2%;
+  position: relative;
+  display: inline-block;
+  width: 48.8%;
+}
+
+div.thumbnail img{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
 @media only screen and (max-width: 800px) and (-webkit-device-pixel-ratio: 2) {
     div.thumbnail {
         width: 46.6%;
-
     }
 }
 
-
-
-
+@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
+    div.thumbnail {
+        width: 97%;
+    }
+    div.text, div.text2 {
+        width: 90%;
+        color: white;
+        font-size: 7vw;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+}
 
 div.lay {
   display:block;
@@ -202,15 +196,13 @@ div.lay {
 }
 
 @media only screen and (min-width: 700px){
-div.thumbnail:hover div.lay{
-  opacity: 1;
+    div.thumbnail:hover div.lay{
+        opacity: 1;
+    }
 }
-}
-
-
 
 div.top_image:hover div.laya{
-  opacity: .9;
+    opacity: .9;
 }
 
 div.text {
@@ -235,9 +227,6 @@ div.text2 {
   -ms-transform: translate(-50%, -50%);
 }
 
-
-
-
 div.text3 {
   color:#7cffbb;
   font-weight: bold;
@@ -247,25 +236,8 @@ div.text3 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  bottom: -20px;
 }
-
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-    div.thumbnail {
-        width: 97%;
-    }
-    
-    div.text, div.text2 {
-    width: 90%;
-    color: white;
-    font-size: 7vw;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     }
-}
-
 
 ul.posts { 
     margin: 20px auto 40px; 
