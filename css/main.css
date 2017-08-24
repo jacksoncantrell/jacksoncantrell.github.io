@@ -147,6 +147,7 @@ div.top_image img{
 }
 
 div.thumbnail {
+  vertical-align: text-top;
   padding: .2%;
   position: relative;
   display: inline-block;
