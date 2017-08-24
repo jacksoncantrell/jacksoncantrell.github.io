@@ -249,11 +249,12 @@ div.text4 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+   opacity: 1;
 }
 
 @media only screen and (min-width: 700px) and (-webkit-device-pixel-ratio: 2){
     div.text4{
-        opacity: 1;
+        opacity: 0;
     }
 }
 
