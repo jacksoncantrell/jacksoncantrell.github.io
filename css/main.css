@@ -240,6 +240,23 @@ div.text3 {
   bottom: -20px;
 }
 
+div.text4 {
+  color: white;
+  font-size: 3.5vw;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 700px) and (-webkit-device-pixel-ratio: 2){
+    div.text4{
+        opacity: 1;
+    }
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
