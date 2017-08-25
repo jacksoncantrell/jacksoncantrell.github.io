@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 75%;
+    align: center;
     position: relative;
     top: 130px;
 }
@@ -12,14 +13,13 @@ body {
 }
 
 nav{
+    width:100%;
+    display: inline-block;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding-right: 10px;
     list-style: none;
     font-weight: bold;
-    text-align: center;
     position: fixed;
-    width: 100%;
-    right: -1%;
+    margin: 0 auto;
     top: 0px;
     background: #fff;
     opacity: .8;
@@ -31,8 +31,12 @@ nav{
     transition: height .3s;
 }
 
-nav a {
-    margin-left: -1.5%;
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    width: 100%;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -40,38 +44,62 @@ nav a {
     transition: all 0.3s;
 }
 
+nav li{
+  float: left;
+  text-align: center;
+  width: 7.7%;
+
+}
+
+
 nav a:hover {
     color:#7cffbb;
 }
 
-nav.smaller img{
-      max-width:30%;
-      max-height:30%;
+nav.smaller div.top_image{
+      max-width:50px;
+      max-height:50px;
 }
+
+
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 9%;
+    padding-right: 9%;
 }
 
 @media only screen and (max-width: 800px) and (-webkit-device-pixel-ratio: 2) {
     nav ul li {
-        display: inline;
-        margin-right: 6%;
+        padding-right:9%;
     }
 }
 
-@media only screen and (max-width: 600px) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 500px) and (-webkit-device-pixel-ratio: 2) {
+    div.top_image {
+      max-width:50px;
+      max-height:50px;
+    }
+
     nav ul li {
-        display: inline;
-        margin-right: 3%;
+        
+        padding-right: 12%;
+    }
+
+    body {
+      top: 35px;
     }
 }
 
 @media only screen and (max-width: 400px) and (-webkit-device-pixel-ratio: 2) {
     nav ul li {
-        display: inline;
-        margin-left: 0%;
+        padding-right:12%;
+    }
+}
+
+
+@media only screen and (max-width: 360px) and (-webkit-device-pixel-ratio: 2) {
+    nav ul li {
+        padding-right: 5%;
     }
 }
 
@@ -173,21 +201,7 @@ div.thumbnail img{
     }
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-    div.thumbnail {
-        width: 97%;
-    }
-    div.text, div.text2 {
-        width: 90%;
-        color: white;
-        font-size: 7vw;
-        font-family:'Helvetica', 'Arial', 'Sans-Serif';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-     }
-}
+
 
 div.lay {
   display:block;
@@ -247,7 +261,7 @@ div.text3 {
   bottom: -20px;
 }
 
-div.text4 {
+div.text4{
   color: white;
   font-size: 3.5vw;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -257,6 +271,22 @@ div.text4 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
+    div.thumbnail {
+        width: 97%;
+    }
+    div.text, div.text2, div.text4{
+        width: 90%;
+        color: white;
+        font-size: 7vw;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
 }
 
 @media only screen and (min-width: 700px) and (-webkit-device-pixel-ratio: 2){
@@ -273,3 +303,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
