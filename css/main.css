@@ -3,14 +3,10 @@ body {
     width: 75%;
     align: center;
     position: relative;
-    top: 130px;
+    top: 70px;
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
-    body {
-        width: 95%;
-    }
-}
+
 
 nav{
     width:100%;
@@ -21,6 +17,7 @@ nav{
     position: fixed;
     margin: 0 auto;
     top: 0px;
+    padding-top: 10px;
     background: #fff;
     opacity: .8;
     z-index: 100;
@@ -51,16 +48,31 @@ nav li{
 
 }
 
+nav a{
+  position: relative;
+  top: 16px;
+}
 
 nav a:hover {
     color:#7cffbb;
 }
 
+div.top_image{
+  min-width: 100px;
+  min height: 100px;
+  position: relative;
+  right: 20px;
+}
+
+
 nav.smaller div.top_image{
       max-width:50px;
       max-height:50px;
+      min-width:50px;
+      min-height:50px;
+      position: relative;
+      left: 0px;
 }
-
 
 
 nav ul li, footer ul li {
@@ -74,10 +86,27 @@ nav ul li, footer ul li {
     }
 }
 
+@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) {
+    body {
+        width: 95%;
+    }
+
+    nav ul li {
+        position: relative;
+        left: 3%;
+        padding-right: 12%;
+    }
+
+}
+
 @media only screen and (max-width: 500px) and (-webkit-device-pixel-ratio: 2) {
     div.top_image {
-      max-width:50px;
-      max-height:50px;
+      max-width:60px;
+      max-height:60px;
+      min-width:50px;
+      min-height:50px;
+      position: relative;
+      right: -0px;
     }
 
     nav ul li {
@@ -97,11 +126,6 @@ nav ul li, footer ul li {
 }
 
 
-@media only screen and (max-width: 360px) and (-webkit-device-pixel-ratio: 2) {
-    nav ul li {
-        padding-right: 5%;
-    }
-}
 
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -303,4 +327,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
 
