@@ -68,6 +68,13 @@ nav ul li, footer ul li {
     }
 }
 
+@media only screen and (max-width: 400px) and (-webkit-device-pixel-ratio: 2) {
+    nav ul li {
+        display: inline;
+        margin-left: 0%;
+    }
+}
+
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
